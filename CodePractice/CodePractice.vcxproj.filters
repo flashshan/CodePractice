@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Functions.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\HandleIO.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d5dbf780-cbf1-4ae4-8e3e-6fc33c07d3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{19416fee-6643-4d31-aa85-cdf5e1ceee6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Array">
+      <UniqueIdentifier>{3450c212-cf04-4a04-8179-737ca494dc62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Array\Easy">
+      <UniqueIdentifier>{2e8d2cf2-1572-4dbe-8af5-bcb0bb95b8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Array\Medium">
+      <UniqueIdentifier>{4eccecad-c70a-4c19-a453-d6d4c5aea73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Array\Hard">
+      <UniqueIdentifier>{0e812f79-6967-4bbb-bbe0-9e947ddbd1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\List">
+      <UniqueIdentifier>{d45955f5-c880-4aee-bb18-45811ed66bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\List\Easy">
+      <UniqueIdentifier>{7a1e4c58-b3d0-44c1-8f71-c12f9caaeac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\List\Medium">
+      <UniqueIdentifier>{7310e3a8-5e5b-44af-96b0-03f4b817e9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\List\Hard">
+      <UniqueIdentifier>{2a390f5a-d527-4449-adeb-b6bf91922a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Tree">
+      <UniqueIdentifier>{16b4847c-265b-4d19-8f6c-aa0dcb1fc97f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\CoreMinimal.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DataStructure.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Functions.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\HandleIO.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Interfaces.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\AllTestCase.h">
+      <Filter>Type\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\AAInclude.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\TwoSum.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\AAInclude.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Hard\AAInclude.h">
+      <Filter>Type\Array\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Easy\AAInclude.h">
+      <Filter>Type\List\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\AAInclude.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Hard\AAInclude.h">
+      <Filter>Type\List\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\AllTestCase.h">
+      <Filter>Type\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\AddTwoNumbers1.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\AddTwoNumbers2.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
