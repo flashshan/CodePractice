@@ -3,20 +3,25 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 
 namespace Array
 {
 	// quick sort
-	template<typename T> void QuickSort(vector<T> &num, int begin, int end);   // begin index and end index are inclusive
+	template<typename T> void QuickSort(std::vector<T> &num, int begin, int end);   // begin index and end index are inclusive
 
 
 }
 
 namespace Math
 {
-
+	template<typename T> T Max(const T &a, const T &b)
+	{
+		return a > b ? a : b;
+	}
+	template<typename T> T Min(const T &a, const T &b)
+	{
+		return a < b ? a : b;
+	}
 }
 
 
@@ -38,7 +43,7 @@ namespace Math
 
 namespace Array
 {
-	template<typename T>void QuickSort(vector<T> &num, int begin, int end)
+	template<typename T>void QuickSort(std::vector<T> &num, int begin, int end)
 	{
 		if (begin >= end) return;
 		if (begin + 1 == end)

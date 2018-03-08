@@ -8,6 +8,9 @@
     <ClCompile Include="Core\HandleIO.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Core\AllTestCase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Core">
@@ -43,6 +46,63 @@
     <Filter Include="Type\Tree">
       <UniqueIdentifier>{16b4847c-265b-4d19-8f6c-aa0dcb1fc97f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Type\Graph">
+      <UniqueIdentifier>{5c103098-a0b7-49e8-8d73-31ba511c5af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\DP">
+      <UniqueIdentifier>{1b505df6-e43a-44e8-8763-e8df8e9e8f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Graph\Easy">
+      <UniqueIdentifier>{46b3a64d-c7ac-4c11-8f44-14becb37e09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Graph\Medium">
+      <UniqueIdentifier>{4fa949f9-2334-4e6f-ad0a-053a76da0a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Graph\Hard">
+      <UniqueIdentifier>{fe5f98a2-8159-4f05-81d2-2dd3d1e92eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\DP\Easy">
+      <UniqueIdentifier>{1052c34b-7f0d-4c50-bbf9-ce9cb12eb54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\DP\Medium">
+      <UniqueIdentifier>{2016c344-ea42-488d-8e2e-a9fb56c68dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\DP\Hard">
+      <UniqueIdentifier>{f375fd35-8117-4eda-aeaa-6fcd6f7c8291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Tree\Easy">
+      <UniqueIdentifier>{c5505535-2377-49fe-8b6a-b75348c4af53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Tree\Medium">
+      <UniqueIdentifier>{08ccd8bb-5b97-42e9-aa0f-dc74956ecdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Tree\Hard">
+      <UniqueIdentifier>{c417920b-abbe-4490-9196-1643e88117ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\String">
+      <UniqueIdentifier>{9eaaccbb-7850-4341-924c-008c5edc1d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\String\Easy">
+      <UniqueIdentifier>{805b3fe5-3799-457f-8ee7-c5e72b4ee21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\String\Medium">
+      <UniqueIdentifier>{2ed4b431-86a0-451f-a563-7b4bee6f96b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\String\Hard">
+      <UniqueIdentifier>{166a5338-05f7-4c38-93ab-12c8e0dbeacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Math">
+      <UniqueIdentifier>{7287ddf8-0b70-468b-bdf2-2af028b57c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Math\Easy">
+      <UniqueIdentifier>{e0ccc10a-fbb1-48d9-a79e-53749dbd50da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Math\Medium">
+      <UniqueIdentifier>{ba358489-058e-4d43-b25b-c1c230f3244a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Math\Hard">
+      <UniqueIdentifier>{4602e5cc-2962-4702-85e0-3c3eac9b433d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\CoreMinimal.h">
@@ -60,38 +120,176 @@
     <ClInclude Include="Core\Interfaces.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Type\Array\AllTestCase.h">
-      <Filter>Type\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\Array\Easy\AAInclude.h">
-      <Filter>Type\Array\Easy</Filter>
-    </ClInclude>
     <ClInclude Include="Type\Array\Easy\TwoSum.h">
       <Filter>Type\Array\Easy</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\Array\Medium\AAInclude.h">
-      <Filter>Type\Array\Medium</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\Array\Hard\AAInclude.h">
-      <Filter>Type\Array\Hard</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\List\Easy\AAInclude.h">
-      <Filter>Type\List\Easy</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\List\Medium\AAInclude.h">
-      <Filter>Type\List\Medium</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\List\Hard\AAInclude.h">
-      <Filter>Type\List\Hard</Filter>
-    </ClInclude>
-    <ClInclude Include="Type\List\AllTestCase.h">
-      <Filter>Type\List</Filter>
     </ClInclude>
     <ClInclude Include="Type\List\Medium\AddTwoNumbers1.h">
       <Filter>Type\List\Medium</Filter>
     </ClInclude>
     <ClInclude Include="Type\List\Medium\AddTwoNumbers2.h">
       <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\DP\Medium\LongestIncreasingSubsequence.h">
+      <Filter>Type\DP\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AllTestCase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\LongestSubstringWithoutRepeating.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\DP\Easy\AAInclude.h">
+      <Filter>Type\DP\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\DP\Hard\AAInclude.h">
+      <Filter>Type\DP\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\DP\Medium\AAInclude.h">
+      <Filter>Type\DP\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Easy\AAInclude.h">
+      <Filter>Type\List\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Hard\AAInclude.h">
+      <Filter>Type\List\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\AAInclude.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Easy\AAInclude.h">
+      <Filter>Type\String\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\AAInclude.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Hard\AAInclude.h">
+      <Filter>Type\String\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Tree\Easy\AAInclude.h">
+      <Filter>Type\Tree\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Tree\Hard\AAInclude.h">
+      <Filter>Type\Tree\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Tree\Medium\AAInclude.h">
+      <Filter>Type\Tree\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Graph\Easy\AAInclude.h">
+      <Filter>Type\Graph\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Graph\Hard\AAInclude.h">
+      <Filter>Type\Graph\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Graph\Medium\AAInclude.h">
+      <Filter>Type\Graph\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\AAInclude.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Hard\AAInclude.h">
+      <Filter>Type\Array\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\AAInclude.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Hard\MedianofTwoSortedArrays.h">
+      <Filter>Type\Array\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\LongestPalindromicSubstring.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\ZigZagConversion.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Easy\AAInclude.h">
+      <Filter>Type\Math\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\AAInclude.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Hard\AAInclude.h">
+      <Filter>Type\Math\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Easy\ReverseInteger.h">
+      <Filter>Type\Math\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\StringToInt.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Easy\PalindromeNumber.h">
+      <Filter>Type\Math\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Hard\RegularExpressionMatching.h">
+      <Filter>Type\String\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\ContainerWithMostWater.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\IntegerToRoman.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Easy\LongestCommonPrefix.h">
+      <Filter>Type\String\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\ThreeSumClosest.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\LetterCombinationsPhoneNumber.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\ThreeSum.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\FourSum.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\RemoveNthNodeFromEnd.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Easy\ValidParentheses.h">
+      <Filter>Type\String\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Easy\MergeTwoSortedLists.h">
+      <Filter>Type\List\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\GenerateParentheses.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Hard\MergekSortedLists.h">
+      <Filter>Type\List\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Medium\SwapNodesinPairs.h">
+      <Filter>Type\List\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\List\Hard\ReverseNodesinkGroup.h">
+      <Filter>Type\List\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\RemoveDuplicatesFromSortedArray.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\RemoveElement.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Easy\ImplementStrStr.h">
+      <Filter>Type\String\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\Heaters.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\MigratoryBirds.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\ElectronicsShop.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Easy\SherlockandWatson.h">
+      <Filter>Type\Array\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Hard\RoseGrowQuestion.h">
+      <Filter>Type\Array\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\ExtraLongFactorials.h">
+      <Filter>Type\Math\Medium</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

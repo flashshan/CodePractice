@@ -1,3 +1,9 @@
 #pragma once
 
-#include "TwoSum.h"
+#include "Core/AllTestCase.h"
+
+
+void TreeTestCases::AddEasyTestCases()
+{
+
+}

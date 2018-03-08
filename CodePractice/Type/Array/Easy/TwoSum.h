@@ -5,7 +5,8 @@
 #include <algorithm>
 #include <map>
 
-/// No.1
+using namespace std;
+/// Leetcode No.1
 /*
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -30,12 +31,12 @@ public:
 			if (n == 0)
 				break;
 
-			vector<int> temp;
-			Input::InputArray(temp, n);
+			vector<int> nums;
+			Input::InputArray(nums, n);
 
 			int m;
 			cin >> m;
-			vector<int> res = twoSum(temp, m);
+			vector<int> res = twoSum(nums, m);
 
 			Output::OutputArray(res);
 		}

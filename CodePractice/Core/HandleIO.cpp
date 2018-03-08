@@ -1,10 +1,14 @@
 #include "HandleIO.h"
 
+#include <string>
+
+using namespace std;
 
 namespace Input
 {
 	void InputArray(vector<int> &nums, int n)
 	{
+		nums.reserve(n);
 		for (int i = 0; i < n; ++i)
 		{
 			int tempNum;
@@ -13,9 +17,20 @@ namespace Input
 		}
 	}
 
-	void InputMatrix()
+	void Input2DArray(std::vector<std::vector<int>> &matrix, int n, int m)
 	{
 
+	}
+
+	void InputStringArray(vector<string> &strs, int n)
+	{
+		strs.reserve(n);
+		for (int i = 0; i < n; ++i)
+		{
+			string tempStr;
+			cin >> tempStr;
+			strs.push_back(tempStr);
+		}
 	}
 
 	void InputList(ListNode *&node, int n)
@@ -65,9 +80,26 @@ namespace Output
 		cout << endl;
 	}
 
-	void OutputMatrix()
-	{
 
+	void Output2DArray(vector<vector<int>> &matrix)
+	{
+		for (unsigned int i = 0; i < matrix.size(); ++i)
+		{
+			for (unsigned int j = 0; j < matrix[0].size(); ++j)
+			{
+				cout << matrix[i][j] << " ";
+			}
+			cout << endl;
+		}
+		cout << endl;
+	}
+
+	void OutputStringArray(vector<string> &strs)
+	{
+		for (unsigned int i = 0; i < strs.size(); i++)
+		{
+			cout << strs[i] << endl;
+		}
 	}
 
 	void OutputList(ListNode *&node)

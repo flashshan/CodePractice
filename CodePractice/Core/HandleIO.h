@@ -5,14 +5,14 @@
 
 #include "DataStructure.h"
 
-using namespace std;
-
 
 namespace Input
 {
-	void InputArray(vector<int> &nums, int n);  
+	void InputArray(std::vector<int> &nums, int n);  
 
-	void InputMatrix();
+	void Input2DArray(std::vector<std::vector<int>> &matrix, int n, int m);
+
+	void InputStringArray(std::vector<std::string> &strs, int n);
 
 	void InputList(ListNode *&node, int n);
 	
@@ -27,9 +27,11 @@ namespace Input
 
 namespace Output
 {
-	void OutputArray(vector<int> &nums);   
+	void OutputArray(std::vector<int> &nums);   
 
-	void OutputMatrix();
+	void Output2DArray(std::vector<std::vector<int>> &matrix);
+
+	void OutputStringArray(std::vector<std::string> &strs);
 
 	void OutputList(ListNode *&node);
 
