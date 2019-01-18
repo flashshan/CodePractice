@@ -9,7 +9,7 @@
 
 void ArrayTestCases::AddMediumTestCases()
 {
-	//AddTestCase(new MedianofTwoSortedArrays());
-	//AddTestCase(new RoseGrowQuestion());
-	//AddTestCase(new GridlandMetro());
+	TryAddTestCase(new MedianofTwoSortedArrays());
+	TryAddTestCase(new RoseGrowQuestion());
+	TryAddTestCase(new GridlandMetro());
 }

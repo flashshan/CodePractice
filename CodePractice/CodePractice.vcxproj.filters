@@ -2,14 +2,23 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Core\Functions.cpp">
-      <Filter>Core</Filter>
+    <ClCompile Include="Core\Private\AllTestCase.cpp">
+      <Filter>Core\Private</Filter>
     </ClCompile>
-    <ClCompile Include="Core\HandleIO.cpp">
-      <Filter>Core</Filter>
+    <ClCompile Include="Core\Private\Functions.cpp">
+      <Filter>Core\Private</Filter>
     </ClCompile>
-    <ClCompile Include="Core\AllTestCase.cpp">
-      <Filter>Core</Filter>
+    <ClCompile Include="Core\Private\HandleIO.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdLibrary\tinyxml2\tinyxml2.cpp">
+      <Filter>ThirdParty\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\ConfigMgr.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdLibrary\tinyxml2\xmltest.cpp">
+      <Filter>ThirdParty\tinyxml2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +111,15 @@
     </Filter>
     <Filter Include="Type\Math\Hard">
       <UniqueIdentifier>{4602e5cc-2962-4702-85e0-3c3eac9b433d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Private">
+      <UniqueIdentifier>{11dbaa61-c8bd-4e2f-8f18-78c321882a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{d71aae90-2d72-4f76-9b74-4dd204a87907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\tinyxml2">
+      <UniqueIdentifier>{937236dc-7827-4425-98d6-a48a69c16808}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -350,6 +368,12 @@
     </ClInclude>
     <ClInclude Include="Type\Math\Medium\MissingNumbers.h">
       <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdLibrary\tinyxml2\tinyxml2.h">
+      <Filter>ThirdParty\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ConfigMgr.h">
+      <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -50,7 +50,7 @@ private:
 		map<int, int> hmap;
 		map<int, int>::iterator it;
 		vector<int> res;
-		int n = numbers.size();
+		int n = (int)numbers.size();
 		if (n < 2) return res;
 
 		for (int i = 0; i < n; i++)

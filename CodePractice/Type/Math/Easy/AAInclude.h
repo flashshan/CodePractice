@@ -7,6 +7,6 @@
 
 void MathTestCases::AddEasyTestCases()
 {
-	//AddTestCase(new PalindromeNumber());
-	//AddTestCase(new ReverseInteger());
+	TryAddTestCase(new PalindromeNumber());
+	TryAddTestCase(new ReverseInteger());
 }

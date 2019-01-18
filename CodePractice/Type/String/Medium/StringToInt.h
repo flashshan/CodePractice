@@ -49,7 +49,7 @@ public:
 
 private:
 	int myAtoi(string str) {
-		int mode = 0, length = str.length();
+		int mode = 0, length = (int)str.length();
 		bool mark = true;
 		int markCount = 0;
 		int res = 0;

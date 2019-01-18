@@ -7,6 +7,6 @@
 
 void StringTestCases::AddHardTestCases()
 {
-	//AddTestCase(new RegularExpressionMatching());
-	//AddTestCase(new StringSimilarity());
+	TryAddTestCase(new RegularExpressionMatching());
+	TryAddTestCase(new StringSimilarity());
 }

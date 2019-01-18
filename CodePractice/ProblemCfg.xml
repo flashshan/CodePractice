@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes" ?>
+<Collection>
+  <Class Name="Array" Enable="True">
+	<Easy/>
+	<Problem Name="Heaters" Enable="True"/>
+	<Problem Name="MigratoryBirds" Enable="False"/>
+	<Problem Name="RemoveElement" Enable="False"/>
+	<Problem Name="RemoveDuplicatesFromSortedArray" Enable="False"/>
+	<Problem Name="TwoSum" Enable="False"/>
+	<Problem Name="SherlockAndWatson" Enable="False"/>
+		
+	<Hard/>
+	<Problem Name="GridlandMetro" Enable="False"/>
+	<Problem Name="MedianofTwoSortedArrays" Enable="False"/>
+	<Problem Name="RoseGrowQuestion" Enable="False"/>	
+	
+	<Medium/>
+	<Problem Name="ClimbingLeaderboard" Enable="False"/>
+	<Problem Name="ContainerWithMostWater" Enable="False"/>
+	<Problem Name="ElectronicsShop" Enable="False"/>
+	<Problem Name="FourSum" Enable="False"/>
+	<Problem Name="HackerlandRadioTransmitters" Enable="False"/>
+	<Problem Name="QuickSorting" Enable="False"/>
+	<Problem Name="ThreeSum" Enable="False"/>
+	<Problem Name="ThreeSumClosest" Enable="False"/>		
+	
+  </Class>
+  
+  <Class Name="DP" Enable="True">
+    <Easy/>
+	
+	<Hard/>
+	
+	<Medium/>
+	<Problem Name="LongestIncreasingSubsequence" Enable="False"/>	
+	
+  </Class>
+  
+  <Class Name="Graph" Enable="True">
+    <Easy/>
+	
+	<Hard/>
+	
+	<Medium/>
+	
+  </Class>
+  
+  <Class Name="List" Enable="True">
+    <Easy/>
+	<Problem Name="MergeTwoSortedLists" Enable="False"/>	
+	
+	<Hard/>
+	<Problem Name="MergekSortedLists" Enable="False"/>	
+	<Problem Name="ReverseNodesinkGroup" Enable="False"/>	
+	
+	<Medium/>
+	<Problem Name="AddTwoNumbers1" Enable="False"/>	
+	<Problem Name="AddTwoNumbers2" Enable="False"/>	
+	<Problem Name="RemoveNthNodeFromEnd" Enable="False"/>	
+	<Problem Name="SwapNodesinPairs" Enable="False"/>	
+	
+  </Class>
+  
+  <Class Name="Math" Enable="True">
+    <Easy/>
+	<Problem Name="PalindromeNumber" Enable="False"/>	
+	<Problem Name="ReverseInteger" Enable="False"/>	
+	
+	<Hard/>
+	<Problem Name="BasicCalculator" Enable="False"/>	
+	<Problem Name="KnightLOnChessboard" Enable="False"/>	
+	
+	<Medium/>
+	<Problem Name="BitwiseAND" Enable="False"/>	
+	<Problem Name="CountingInversions" Enable="False"/>	
+	<Problem Name="ExtraLongFactorials" Enable="False"/>	
+	<Problem Name="FindTheMedian" Enable="False"/>	
+	<Problem Name="FraudulentActivityNotifications" Enable="False"/>	
+	<Problem Name="LilyHomework" Enable="False"/>	
+	<Problem Name="MarkandToys" Enable="False"/>	
+	<Problem Name="MinimumLoss" Enable="False"/>	
+	<Problem Name="MissingNumbers" Enable="False"/>	
+	<Problem Name="NonDivisibleSubset" Enable="False"/>		
+  </Class>
+  
+  <Class Name="String" Enable="True">
+    <Easy/>
+	<Problem Name="ImplementStrStr" Enable="False"/>	
+	<Problem Name="LongestCommonPrefix" Enable="False"/>	
+	<Problem Name="RepeatedString" Enable="False"/>	
+	<Problem Name="ValidParentheses" Enable="False"/>	
+	
+	<Hard/>
+	<Problem Name="RegularExpressionMatching" Enable="False"/>	
+	<Problem Name="StringSimilarity" Enable="False"/>	
+	
+	<Medium/>
+	<Problem Name="DetectHTMLAttributes" Enable="False"/>	
+	<Problem Name="GenerateParentheses" Enable="False"/>	
+	<Problem Name="HappyLadybugs" Enable="False"/>	
+	<Problem Name="IntegerToRoman" Enable="False"/>	
+	<Problem Name="LetterCombinationsPhoneNumber" Enable="False"/>	
+	<Problem Name="LongestPalindromicSubstring" Enable="False"/>	
+	<Problem Name="LongestSubstringWithoutRepeating" Enable="False"/>	
+	<Problem Name="StringToInt" Enable="False"/>	
+	<Problem Name="TimeInWords" Enable="False"/>	
+	<Problem Name="ZigZagConversion" Enable="False"/>	
+
+  </Class>
+  
+  <Class Name="Tree" Enable="True">
+    <Easy/>
+	
+	<Hard/>
+	
+	<Medium/>
+	
+  </Class>
+  
+</Collection>

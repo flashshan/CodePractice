@@ -7,5 +7,5 @@
 
 void DPTestCases::AddMediumTestCases()
 {
-	//AddTestCase(new LongestIncreasingSubsequence());
+	TryAddTestCase(new LongestIncreasingSubsequence());
 }

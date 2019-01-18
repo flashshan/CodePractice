@@ -9,8 +9,8 @@
 
 void ListTestCases::AddMediumTestCases()
 {
-	//AddTestCase(new AddTwoNumbers1());
-	//AddTestCase(new AddTwoNumbers2());
-	//AddTestCase(new RemoveNthNodeFromEnd());
-	//AddTestCase(new SwapNodesinPairs());
+	TryAddTestCase(new AddTwoNumbers1());
+	TryAddTestCase(new AddTwoNumbers2());
+	TryAddTestCase(new RemoveNthNodeFromEnd());
+	TryAddTestCase(new SwapNodesinPairs());
 }

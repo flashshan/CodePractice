@@ -37,7 +37,7 @@ public:
 private:
 	bool isValid(string s) {
 		stack<char> record;
-		int length = s.length();
+		int length = (int)s.length();
 
 		for (int i = 0; i < length; ++i)
 		{

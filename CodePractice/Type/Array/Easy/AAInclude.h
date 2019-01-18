@@ -10,12 +10,13 @@
 #include "SherlockandWatson.h"
 
 
+
 void ArrayTestCases::AddEasyTestCases()
 {
-	//AddTestCase(new Heaters());
-	//AddTestCase(new MigratoryBirds());
-	//AddTestCase(new RemoveElement());
-	//AddTestCase(new RemoveDuplicatesFromSortedArray());
-	//AddTestCase(new TwoSum());
-	//AddTestCase(new SherlockAndWatson());
+	TryAddTestCase(new Heaters());
+	TryAddTestCase(new MigratoryBirds());
+	TryAddTestCase(new RemoveElement());
+	TryAddTestCase(new RemoveDuplicatesFromSortedArray());
+	TryAddTestCase(new TwoSum());
+	TryAddTestCase(new SherlockAndWatson());
 }

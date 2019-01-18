@@ -67,14 +67,14 @@ public:
 private:
 	int getMoneySpent(vector < int > keyboards, vector < int > drives, int s) {
 		// Complete this function
-		int keyboardCount = keyboards.size();
-		int driveCount = drives.size();
+		int keyboardCount = (int)keyboards.size();
+		int driveCount = (int)drives.size();
 
 		sort(keyboards.begin(), keyboards.end());
 		sort(drives.begin(), drives.end());
 
 		int it1 = 0;
-		int it2 = lower_bound(drives.begin(), drives.end(), s - keyboards[0]) - drives.begin() - 1;
+		int it2 = (int)(lower_bound(drives.begin(), drives.end(), s - keyboards[0]) - drives.begin()) - 1;
 		if (it2 == -1)
 			return -1;
 

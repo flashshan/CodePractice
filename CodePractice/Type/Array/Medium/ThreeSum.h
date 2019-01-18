@@ -50,7 +50,7 @@ private:
 	vector<vector<int>> threeSum(vector<int>& nums) {
 		sort(nums.begin(), nums.end());
 
-		int size = nums.size();
+		int size = (int)nums.size();
 
 		vector<vector<int>> res;
 		int i = 0;

@@ -44,7 +44,7 @@ private:
 	int threeSumClosest(vector<int>& nums, int target) {
 		sort(nums.begin(), nums.end());
 
-		int size = nums.size();
+		int size = (int)nums.size();
 		int res, minDistance = INT_MAX;
 		
 		int i = 0;

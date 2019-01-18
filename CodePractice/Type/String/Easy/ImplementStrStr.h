@@ -47,8 +47,8 @@ public:
 
 private:
 	int strStr(string haystack, string needle) {
-		int length1 = haystack.length();
-		int length2 = needle.length();
+		int length1 = (int)haystack.length();
+		int length2 = (int)needle.length();
 		if (length2 == 0)
 			return 0;
 		if (length1 == 0)

@@ -47,8 +47,9 @@ private:
 		digit = digits;
 
 		res.clear();
-		n = digits.length();
-		if (n == 0) return res;
+		n = (int)digits.length();
+		if (n == 0) 
+			return res;
 
 		nextChar("", 0);
 		return res;

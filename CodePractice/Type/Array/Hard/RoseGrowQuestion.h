@@ -52,7 +52,7 @@ private:
 	int solution(vector<int> &P, int K) {
 		// write your code in C++14 (g++ 6.2.0)
 
-		int days = P.size();
+		int days = (int)P.size();
 		if (K > days)
 			return -1;
 		if (K == days)

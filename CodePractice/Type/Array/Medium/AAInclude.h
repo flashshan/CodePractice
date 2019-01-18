@@ -14,12 +14,12 @@
 
 void ArrayTestCases::AddHardTestCases()
 {
-	//AddTestCase(new FourSum());
-	//AddTestCase(new ThreeSum());
-	//AddTestCase(new ThreeSumCloest());
-	//AddTestCase(new ContainerWithMostWater());
-	//AddTestCase(new ElectronicsShop());
-	//AddTestCase(new ClimbingLeaderboard());
-	//AddTestCase(new QuickSorting());
-	//AddTestCase(new HackerlandRadioTransmitters());
+	TryAddTestCase(new FourSum());
+	TryAddTestCase(new ThreeSum());
+	TryAddTestCase(new ThreeSumCloest());
+	TryAddTestCase(new ContainerWithMostWater());
+	TryAddTestCase(new ElectronicsShop());
+	TryAddTestCase(new ClimbingLeaderboard());
+	TryAddTestCase(new QuickSorting());
+	TryAddTestCase(new HackerlandRadioTransmitters());
 }

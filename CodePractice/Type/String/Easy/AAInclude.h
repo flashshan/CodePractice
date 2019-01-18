@@ -10,8 +10,8 @@
 
 void StringTestCases::AddEasyTestCases()
 {
-	//AddTestCase(new ImplementStrStr());
-	//AddTestCase(new LongestCommonPrefix());
-	//AddTestCase(new ValidParentheses());
-	//AddTestCase(new RepeatedString());
+	TryAddTestCase(new ImplementStrStr());
+	TryAddTestCase(new LongestCommonPrefix());
+	TryAddTestCase(new ValidParentheses());
+	TryAddTestCase(new RepeatedString());
 }

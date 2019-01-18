@@ -46,7 +46,7 @@ public:
 
 private:
 	int removeElement(vector<int>& nums, int val) {
-		int size = nums.size();
+		int size = (int)nums.size();
 		if (size == 0)
 			return 0;
 

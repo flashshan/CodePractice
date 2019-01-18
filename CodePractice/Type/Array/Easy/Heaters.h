@@ -63,7 +63,7 @@ private:
 		sort(houses.begin(), houses.end());
 		sort(heaters.begin(), heaters.end());
 
-		int length1 = houses.size(), length2 = heaters.size();
+		int length1 = (int)houses.size(), length2 = (int)heaters.size();
 		if (length1 == 0)
 			return 0;
 		if (length2 == 0)

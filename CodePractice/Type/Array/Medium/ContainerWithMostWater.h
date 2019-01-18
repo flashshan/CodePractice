@@ -39,7 +39,7 @@ public:
 
 private:
 	int maxArea(vector<int> &height) {
-		int begin = 0, end = height.size() - 1;
+		int begin = 0, end = (int)height.size() - 1;
 		int actTotal = 0, res = 0;
 		int min1 = height[begin], min2 = height[end];
 		bool mark = true;

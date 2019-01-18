@@ -50,7 +50,7 @@ public:
 
 private:
 	bool isMatch(string s, string p) {
-		int m = s.size(), n = p.size();
+		int m = (int)s.size(), n = (int)p.size();
 		vector<vector<bool>> f(m + 1, vector<bool>(n + 1, false));
 
 		f[0][0] = true;

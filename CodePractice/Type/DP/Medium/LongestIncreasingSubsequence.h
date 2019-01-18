@@ -49,6 +49,6 @@ private:
 				state[it - state.begin()] = nums[i];
 			}
 		}
-		return state.size();
+		return (int)state.size();
 	}
 };

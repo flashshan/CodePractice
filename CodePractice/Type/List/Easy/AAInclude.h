@@ -7,5 +7,5 @@
 
 void ListTestCases::AddEasyTestCases()
 {
-	//AddTestCase(new MergeTwoSortedLists());
+	TryAddTestCase(new MergeTwoSortedLists());
 }

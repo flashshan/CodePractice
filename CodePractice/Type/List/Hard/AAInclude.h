@@ -7,6 +7,6 @@
 
 void ListTestCases::AddHardTestCases()
 {
-	//AddTestCase(new MergekSortedLists());
-	//AddTestCase(new ReverseNodesinKGroup());
+	TryAddTestCase(new MergekSortedLists());
+	TryAddTestCase(new ReverseNodesinKGroup());
 }

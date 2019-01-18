@@ -16,14 +16,14 @@
 
 void StringTestCases::AddMediumTestCases()
 {
-	//AddTestCase(new GenerateParentheses());
-	//AddTestCase(new IntegerToRoman());
-	//AddTestCase(new LongestPalindromicSubstring());
-	//AddTestCase(new LongestSubstringWithoutRepeating());
-	//AddTestCase(new StringToInteger());
-	//AddTestCase(new ZigZagConversion());
-	//AddTestCase(new LetterCombinationsPhoneNumber());
-	//AddTestCase(new TimeInWords());
-	//AddTestCase(new HappyLadybugs());
-	//AddTestCase(new DetectHTMLAttributes());
+	TryAddTestCase(new GenerateParentheses());
+	TryAddTestCase(new IntegerToRoman());
+	TryAddTestCase(new LongestPalindromicSubstring());
+	TryAddTestCase(new LongestSubstringWithoutRepeating());
+	TryAddTestCase(new StringToInteger());
+	TryAddTestCase(new ZigZagConversion());
+	TryAddTestCase(new LetterCombinationsPhoneNumber());
+	TryAddTestCase(new TimeInWords());
+	TryAddTestCase(new HappyLadybugs());
+	TryAddTestCase(new DetectHTMLAttributes());
 }

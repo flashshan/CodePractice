@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{D38EF5D5-44CA-4645-A3DB-3DE839FF6BAD}</ProjectGuid>
     <RootNamespace>CodePractice</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,10 +146,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Core\AllTestCase.cpp" />
-    <ClCompile Include="Core\Functions.cpp" />
-    <ClCompile Include="Core\HandleIO.cpp" />
+    <ClCompile Include="Core\Private\AllTestCase.cpp" />
+    <ClCompile Include="Core\Private\ConfigMgr.cpp" />
+    <ClCompile Include="Core\Private\Functions.cpp" />
+    <ClCompile Include="Core\Private\HandleIO.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThirdLibrary\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="ThirdLibrary\tinyxml2\xmltest.cpp" />
+    <ClInclude Include="Core\ConfigMgr.h" />
+    <ClInclude Include="ThirdLibrary\tinyxml2\tinyxml2.h" />
     <ClInclude Include="Type\Array\Easy\Heaters.h" />
     <ClInclude Include="Type\Array\Easy\MigratoryBirds.h" />
     <ClInclude Include="Type\Array\Easy\RemoveElement.h" />

@@ -46,7 +46,7 @@ public:
 
 private:
 	int removeDuplicates(vector<int>& nums) {
-		int size = nums.size();
+		int size = (int)nums.size();
 		if (size == 0)
 			return 0;
 		

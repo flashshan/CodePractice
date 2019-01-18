@@ -51,7 +51,7 @@ private:
 	vector<vector<int>> fourSum(vector<int>& nums, int target) {
 		sort(nums.begin(), nums.end());
 
-		int size = nums.size();
+		int size = (int)nums.size();
 
 		vector<vector<int>> res;
 		int i = 0;

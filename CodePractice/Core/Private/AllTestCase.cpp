@@ -1,4 +1,4 @@
-#include "AllTestCase.h"
+#include "Core/AllTestCase.h"
 
 #include "Type/Array/Easy/AAInclude.h"
 #include "Type/Array/Medium/AAInclude.h"

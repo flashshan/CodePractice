@@ -16,14 +16,14 @@
 
 void MathTestCases::AddMediumTestCases()
 {
-	//AddTestCase(new BitwiseAND());
-	//AddTestCase(new ExtraLongFactorials());
-	//AddTestCase(new NonDivisibleSubset());
-	//AddTestCase(new FindMedian());
-	//AddTestCase(new MarkAndToys());
-	//AddTestCase(new FraudulentActivityNotifications());
-	//AddTestCase(new LilyHomework());
-	//AddTestCase(new CountingInversions());
-	//AddTestCase(new MinimumLoss());
-	AddTestCase(new MissingNumbers());
+	TryAddTestCase(new BitwiseAND());
+	TryAddTestCase(new ExtraLongFactorials());
+	TryAddTestCase(new NonDivisibleSubset());
+	TryAddTestCase(new FindMedian());
+	TryAddTestCase(new MarkAndToys());
+	TryAddTestCase(new FraudulentActivityNotifications());
+	TryAddTestCase(new LilyHomework());
+	TryAddTestCase(new CountingInversions());
+	TryAddTestCase(new MinimumLoss());
+	TryAddTestCase(new MissingNumbers());
 }

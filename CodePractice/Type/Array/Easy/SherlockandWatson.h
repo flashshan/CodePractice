@@ -47,7 +47,7 @@ public:
 private:
 	vector <int> circularArrayRotation(vector<int> a, int k, vector<int> m) {
 		// Complete this function
-		int sizeA = a.size(), sizeM = m.size();
+		int sizeA = (int)a.size(), sizeM = (int)m.size();
 		vector<int> res;
 		res.reserve(sizeM);
 		for (int i = 0; i < sizeM; ++i)

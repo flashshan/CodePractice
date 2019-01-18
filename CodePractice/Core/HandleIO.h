@@ -21,9 +21,6 @@ namespace Input
 	void InputTree();
 
 	void InputGraph();
-
-
-
 }
 
 
