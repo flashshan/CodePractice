@@ -9,6 +9,9 @@
 #include "StringToInt.h"
 #include "ZigZagConversion.h"
 #include "LetterCombinationsPhoneNumber.h"
+#include "TimeInWords.h"
+#include "HappyLadybugs.h"
+#include "DetectHTMLAttributes.h"
 
 
 void StringTestCases::AddMediumTestCases()
@@ -20,4 +23,7 @@ void StringTestCases::AddMediumTestCases()
 	//AddTestCase(new StringToInteger());
 	//AddTestCase(new ZigZagConversion());
 	//AddTestCase(new LetterCombinationsPhoneNumber());
+	//AddTestCase(new TimeInWords());
+	//AddTestCase(new HappyLadybugs());
+	//AddTestCase(new DetectHTMLAttributes());
 }

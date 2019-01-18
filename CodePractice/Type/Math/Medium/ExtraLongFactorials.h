@@ -4,19 +4,18 @@
 
 #include <string>
 
-#include <unordered_map>
 
 using namespace std;
 /// HackerRank
 /*
-Implement n!. n < 100
+https://www.hackerrank.com/challenges/non-divisible-subset/problem
 */
 
-class ExtraLongFactorials : public ITest{
+class NonDivisibleSubset : public ITest{
 public:
 	virtual bool RunTest() override
 	{
-		cout << "Start test Extra Long Factorials." << endl;
+		cout << "Start test Non-Divisible Subset." << endl;
 
 		int n;
 		while (cin >> n)
@@ -24,108 +23,38 @@ public:
 			if (n == 0)
 				break;
 
-			extraLongFactorials(n);
+			vector<int> nums;
+			Input::InputArray(nums, n);
+
+			int m;
+			cin >> m;
+			int res = nonDivisibleSubset(n, nums);
+
+			cout << res << endl;
 		}
 
-		cout << "End test Extra Long Factorials." << endl << endl;
+		cout << "End test Non-Divisible Subset." << endl << endl;
 		return true;
 	}
 
 private:
-	string multiply(string num1, string num2) {
-		if (num1 == "0" || num2 == "0") 
-			return "0";
-		vector<int> res(num1.length() + num2.length(), 0);
+	int nonDivisibleSubset(int k, vector <int> arr) {
+		// Complete this function
+		vector<int> states(k, 0);
 
-		for (int i = num1.length() - 1; i >= 0; i--)
+		for (unsigned int i = 0; i < arr.size(); ++i)
 		{
-			for (int j = num2.length() - 1; j >= 0; j--)
-			{
-				res[i + j + 1] += (num1[i] - '0') * (num2[j] - '0');
-				if ( res[i + j + 1] < 0)
-				{
-					int a = 1;
-					++a;
-					cout << "error";
-				}
-			}
+			++states[((arr[i] % k) + k) % k];
 		}
-		int flag = 0;
-		for (int i = num1.length() + num2.length() - 1; i >= 0; --i)
+		int res = 0;
+		if (states[0] != 0)
+			++res;
+		if (k % 2 == 0 && states[k / 2] != 0)
+			++res;
+		for (int i = 1; i < k - i; ++i)
 		{
-			res[i] += flag;
-			flag = res[i] / 10;
-			res[i] = res[i] % 10;
-			
-		}
-		string ans = "";
-		if (res[0] != 0) ans.push_back((char)(res[0] + '0'));
-		for (unsigned int i = 1; i < num1.length() + num2.length(); ++i)
-		{
-			
-			ans.push_back((char)(res[i] + '0'));
-		}
-		return ans;
-	}
-
-	string longToString(long long n)
-	{
-		if (n == 0)
-			return "0";
-		int i = 0;
-		long long level = 1;
-		while (n >= level)
-		{
-			++i;
-			level *= 10;
-		}
-		string res;
-		res.resize(i);
-
-		level /= 10;
-		int pos = 0;
-		while (level)
-		{
-			res[pos++] = int(n % (level * 10) / level) + '0';
-			level /= 10;
+			res += states[i] > states[k - i] ? states[i] : states[k - i];
 		}
 		return res;
-	}
-
-	void extraLongFactorials(int n) {
-		// Complete this function
-		string currentResult = "1";
-
-		long long largeNumber = (long long)2147483647 * (long long)2000000L;
-		long long value = 1;
-		for (int i = 1; i <= n; ++i)
-		{
-			value *= i;
-			if (value > largeNumber || i == n)
-			{
-				currentResult = multiply(currentResult, longToString(value));
-				value = 1;
-			}
-		}
-		cout << currentResult << endl;
-	}
-
-	int minimumDistances(vector <int> a) {
-		// Complete this function
-		unordered_map<int, int> record;
-
-		
-		for (int i = 0; i < a.size(); ++i)
-		{
-			auto it = record.find(a[i]);
-			if (it != record.end())
-			{
-				it->second = i;
-			}
-			else
-			{
-				record.insert(make_pair(a[i], i));
-			}
-		}
 	}
 };

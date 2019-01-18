@@ -10,6 +10,8 @@ namespace Input
 {
 	void InputArray(std::vector<int> &nums, int n);  
 
+	void InputLongLongArray(std::vector<long long> &nums, int n);
+
 	void Input2DArray(std::vector<std::vector<int>> &matrix, int n, int m);
 
 	void InputStringArray(std::vector<std::string> &strs, int n);

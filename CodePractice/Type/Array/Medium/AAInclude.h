@@ -7,6 +7,9 @@
 #include "ThreeSum.h"
 #include "ThreeSumClosest.h"
 #include "ContainerWithMostWater.h"
+#include "ClimbingLeaderboard.h"
+#include "QuickSorting.h"
+#include "HackerlandRadioTransmitters.h"
 
 
 void ArrayTestCases::AddHardTestCases()
@@ -16,4 +19,7 @@ void ArrayTestCases::AddHardTestCases()
 	//AddTestCase(new ThreeSumCloest());
 	//AddTestCase(new ContainerWithMostWater());
 	//AddTestCase(new ElectronicsShop());
+	//AddTestCase(new ClimbingLeaderboard());
+	//AddTestCase(new QuickSorting());
+	//AddTestCase(new HackerlandRadioTransmitters());
 }

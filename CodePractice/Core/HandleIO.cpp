@@ -17,9 +17,28 @@ namespace Input
 		}
 	}
 
+	void InputLongLongArray(vector<long long> &nums, int n)
+	{
+		nums.reserve(n);
+		for (int i = 0; i < n; ++i)
+		{
+			long long tempNum;
+			cin >> tempNum;
+			nums.push_back(tempNum);
+		}
+	}
+
 	void Input2DArray(std::vector<std::vector<int>> &matrix, int n, int m)
 	{
-
+		matrix.resize(n);
+		for (int i = 0; i < n; ++i)
+		{
+			matrix[i].resize(m);
+			for (int j = 0; j < m; ++j)
+			{
+				cin >> matrix[i][j];
+			}
+		}
 	}
 
 	void InputStringArray(vector<string> &strs, int n)

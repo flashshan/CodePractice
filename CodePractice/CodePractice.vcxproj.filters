@@ -291,5 +291,65 @@
     <ClInclude Include="Type\Math\Medium\ExtraLongFactorials.h">
       <Filter>Type\Math\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="Type\Math\Medium\NonDivisibleSubset.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Easy\RepeatedString.h">
+      <Filter>Type\String\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\BitwiseAND.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\ClimbingLeaderboard.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\TimeInWords.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\HappyLadybugs.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Hard\StringSimilarity.h">
+      <Filter>Type\String\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\QuickSorting.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\String\Medium\DetectHTMLAttributes.h">
+      <Filter>Type\String\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\FindTheMedian.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\MarkandToys.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\FraudulentActivityNotifications.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Hard\BasicCalculator.h">
+      <Filter>Type\Math\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\LilyHomework.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\CountingInversions.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Hard\GridlandMetro.h">
+      <Filter>Type\Array\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Array\Medium\HackerlandRadioTransmitters.h">
+      <Filter>Type\Array\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\MinimumLoss.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Hard\KnightLOnChessboard.h">
+      <Filter>Type\Math\Hard</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\Math\Medium\MissingNumbers.h">
+      <Filter>Type\Math\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
